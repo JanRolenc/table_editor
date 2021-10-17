@@ -1,0 +1,70 @@
+body {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(82, 170, 211);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table td input {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(211, 201, 201);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#divTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel {
+    background-color: rgb(82, 170, 211);
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(206, 198, 198);
+}
